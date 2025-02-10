@@ -1,0 +1,148 @@
+% ALTERNATIVE TEMPLATE for preprints
+% https://github.com/kourgeorge/arxiv-style
+% ============================================================
+% Modeled after sample-sigplan.tex
+% For review:
+%\documentclass[sigplan,anonymous,review,10pt]{acmart}
+% \documentclass[sigplan,10pt]{acmart}
+%
+% PREPRINT version -- see https://www.micahsmith.com/blog/2021/02/sharing-a-preprint-using-acmart/
+\documentclass[acmsmall,screen,authorversion,nonacm]{acmart} % PREPRINT
+%
+% ============================================================
+\input{macros}
+\input{st80.tex}
+\usepackage{subfigure}
+% ============================================================
+\newboolean{preprint}
+\setboolean{preprint}{true}
+%\setboolean{preprint}{false}
+\ifthenelse{\boolean{preprint}}{
+% FOR PREPRINT
+%\usepackage{fancyhdr}
+%\AtBeginDocument{%
+%    \addtolength{\footskip}{2.0\baselineskip}%
+%    \fancyfoot[L]{\textit{Preprint of paper presented at Live workshop, SPLASH 2024, Pasadena, USA, Oct 20-25, 2024.}}%
+%}
+}{
+% FOR CAMERA-READY
+}
+% ============================================================
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+%\setcopyright{acmlicensed}
+\copyrightyear{2024}
+%\acmYear{2024}
+%\acmDOI{XXXXXXX.XXXXXXX}
+%% These commands are for a PROCEEDINGS abstract or paper.
+\acmConference[Onward! 2025]{Obnward! 2025}{Oct.\ 12-18, 2025}{Singapore}
+%\acmISBN{978-1-4503-XXXX-X/18/06}
+% ============================================================
+% Macros for this paper
+\newcommand*{\smallimg}[1]{%
+    \raisebox{-.3\baselineskip}{%
+        \includegraphics[
+        height=\baselineskip,
+        width=\baselineskip,
+        keepaspectratio,
+        ]{#1}%
+    }%
+}
+%\renewcommand{\nbc}[3]{} % To hide reviewer comments
+\newcommand\on[1]{\nbc{ON}{#1}{olive}} % add more author macros here
+\newcommand\tg[1]{\nbc{TG}{#1}{blue}}
+\newcommand\ac[1]{\nbc{AC}{#1}{teal}}
+%\newcommand\steve[1]{\nbc{Steven}{#1}{red}} % Costiou
+%\newcommand\ab[1]{\nbc{Alex}{#1}{violet}} % Bergel
+%\newcommand\tk[1]{\nbc{Timo}{#1}{brown}} % Kehrer
+\usepackage{caption}
+\captionsetup{aboveskip=5pt,belowskip=-10pt} % Adjust the space around figure captions
+%\usepackage{enumitem}
+%\setlist[description]{font=\itshape}
+\newcommand{\GT}{\lst{GT}\xspace} % In case we want to display it differently ...
+%\newcommand\lmaf{\lst{Ludo\-Move\-Assert\-ion\-Fail\-ure}\xspace}
+% ============================================================
+% Optionally anonymize selected names
+\newboolean{anonymous}
+\setboolean{anonymous}{true}
+\newcommand\anonymize[2]{\ifthenelse{\boolean{anonymous}}{#2}{#1}\xspace}
+\newcommand\feenk{\anonymize{feenk}{anonymous company}}
+\newcommand\deet{{\tt deet}\xspace}
+% ============================================================
+\begin{document}
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title[Co-evolution of Documentation and Code]{Co-Evolution ...}%
+\ifthenelse{\boolean{preprint}}{%
+%\thanks{Presented at...}%
+}{}
+
+
+\author{Andrei Chi\c{s}}
+\affiliation{%
+  \institution{feenk gmbh}
+  \city{Wabern}
+  \country{Switzerland}}
+\email{andrei.chis@feenk.com}
+
+\author{Tudor G\^irba}
+\affiliation{%
+  \institution{feenk gmbh}
+  \city{Wabern}
+  \country{Switzerland}}
+\email{tudor.girba@feenk.com}
+
+\author{Oscar Nierstrasz}
+\affiliation{%
+  \institution{feenk gmbh}
+  \city{Wabern}
+  \country{Switzerland}}
+\email{oscar.nierstrasz@feenk.com}
+
+%\renewcommand{\shortauthors}{Nierstrasz et al.}
+
+\begin{abstract}
+Should we aim for a paper for onward that builds on the paper about examples with a bigger focus on lepiter: describing the lepiter model and its integration with the code model from Pharo. The very nice case that we have is that doing that enables refactorings and code references to work across both code and documentation.
+\end{abstract}
+
+\keywords{To do ...}
+
+% NB: Max 6 pages for the workshop submission
+
+\maketitle
+
+% ============================================================
+\section{XXX}\label{sec:xxx}
+
+For now see the notes in the Lepiter database for this repo.
+
+% ============================================================
+\section{Conclusion}\label{sec:conclusion}
+
+
+
+%\begin{acks}
+%\end{acks}
+
+% ============================================================
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{eddBib}
+
+\end{document}
+\endinput
+
+% ============================================================
+
+\begin{inparaenum}[(i)]
+	\item 
+\end{inparaenum}
+
+\begin{figure}[h]
+  \includegraphics[width=\columnwidth]{xxx}
+  \caption{xxx.}
+  \label{fig:xxx}
+\end{figure}
+
