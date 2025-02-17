@@ -1,0 +1,113 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-17T10:19:56.064107+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-17T10:20:06.89755+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "t/66w7TqDQCKHDYxCnGoVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Version of 2025-02-17"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-17T10:19:48.538037+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-17T10:19:53.672586+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "zSpIw7TqDQCKFECbCnGoVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Onward! 2025 Co-evolution of Documentation and Code\n\tProblems/issues addressed\n\t\tSystems are opaque\n\t\t\tYou can't ask them questions\n\t\t\tNot explainable\n\t\tGap between coding and feedback\n\t\t\tGuess first\n\t\t\tCan't explore the result of coding\n\t\tDocumentation disconnected from code\n\t\t\tAside from generated class API documentation\n\t\tTests are dead\n\tThemes to explore\n\t\tMetamodel\n\t\t\tOLD: classes and methods (and packages)\n\t\t\tNEW: + snippets and pages and databases\n\t\tLive programming from notebooks instead of code editor\n\t\tUsing examples to illustrate documentation\n\t\tStarting a development task from an example\n\t\tTurning code snippets into examples and vice versa\n\tExamples\n\t\tEmbedded in documentation\n\t\tProcess\n\t\t\tLive programming from notebooks\n\t\t\tExtracting examples in snippets to example methods\n\t\tAugmenting examples with custom tools\n\tSearching\n\t\tSearch in both code and snippets\n\t\tCustom searching for app domain\n\tRefactoring\n\t\tMostly renaming\n\t\tRefactoring explicit and also implicit links\n\tRelated work\n\t\tLiterate programming\n\t\t\tNotebooks\n\t\tZettelkasten\n\tTitle\n\t\tProblem: aside from refactoring, the co-evolution is not so much the main point\n\t\tPerhaps more focus on the co-habitation or the common ecosystem in which documentation and code mutually support each other.\n\t\tBetter metaphors?\n\t\t\tcohabitation\n\t\t\tsymbiosis\n"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-02-17T10:19:48.506703+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-02-17T10:19:48.506703+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Mindmap notes"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "d7af47c3-b4ea-0d00-8a13-8e630a71a854"
+	}
+}

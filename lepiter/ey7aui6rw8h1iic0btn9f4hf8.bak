@@ -153,6 +153,43 @@
 								"uidString" : "o5V6ybTqDQCL8DwUCnGoVA=="
 							},
 							"code" : "FileLocator gtResource / 'feenkcom/paper-coevolution-onward25'"
+						},
+						{
+							"__type" : "elementSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-02-17T10:22:22.568416+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-02-17T10:23:38.15919+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "LHZ2zLTqDQCMW1LpCnGoVA=="
+							},
+							"code" : "GtInspector\r\tforObject: FileLocator gtResource / 'feenkcom/paper-coevolution-onward25'",
+							"elementHeight" : 326,
+							"codeHeight" : 50,
+							"codeVisible" : false
 						}
 					]
 				},
