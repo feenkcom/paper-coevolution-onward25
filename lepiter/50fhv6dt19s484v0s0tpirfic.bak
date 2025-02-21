@@ -71,14 +71,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-02-17T10:33:15.458613+01:00"
+									"dateAndTimeString" : "2025-02-21T10:33:35.910127+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "cD6j8LTqDQCTOA7OCnGoVA=="
 							},
-							"string" : "Perhaps we should emphasize *symbiosis* rather than “co-evolution” in the title",
+							"string" : "Perhaps we should emphasize *symbiosis* rather than “co-evolution” in the title.\n• *Symbiosis of Documentation and Code*\n• *Code and Documentation Living in Symbiosis* ",
 							"isHidden" : false
 						}
 					]
@@ -102,7 +102,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-02-17T10:20:41.254199+01:00"
+						"dateAndTimeString" : "2025-02-21T10:34:14.217253+01:00"
 					}
 				},
 				"uid" : {
@@ -112,7 +112,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Co-evolution of Documentation and Code"
+				"string" : "# Code and Documentation in Symbiosis"
 			},
 			{
 				"__type" : "textSnippet",
@@ -139,7 +139,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-02-17T10:25:19.286518+01:00"
+						"dateAndTimeString" : "2025-02-21T10:21:24.18644+01:00"
 					}
 				},
 				"uid" : {
@@ -149,7 +149,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Andrei Chis, Tudor Girba, Oscar Nierstrasz"
+				"string" : "Andrei Chiş, John Brant, Tudor Gîrba, Oscar Nierstrasz"
 			},
 			{
 				"__type" : "textSnippet",
@@ -170,7 +170,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-02-17T10:16:13.029319+01:00"
+									"dateAndTimeString" : "2025-02-21T10:11:01.789149+01:00"
 								}
 							},
 							"editEmail" : {
@@ -181,7 +181,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-02-17T10:27:38.974106+01:00"
+									"dateAndTimeString" : "2025-02-21T10:13:43.018652+01:00"
 								}
 							},
 							"uid" : {
@@ -191,7 +191,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "to do"
+							"string" : "In most software development projects, code and documentation are in conflict. Aside from generated API documentation, keeping code and documentation in sync is a chore. Why is this?"
 						},
 						{
 							"__type" : "textSnippet",
@@ -207,7 +207,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-02-17T10:29:30.862377+01:00"
+									"dateAndTimeString" : "2025-02-21T10:14:29.167267+01:00"
 								}
 							},
 							"editEmail" : {
@@ -218,17 +218,91 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-02-17T10:29:39.005103+01:00"
+									"dateAndTimeString" : "2025-02-21T10:17:52.188615+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "DrX95bTqDQCQWvJYCnGoVA=="
+								"uidString" : "xdRUJAXrDQC9e3IRCE+1Kw=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "What are the main contributions to emphasize?"
+							"string" : "Since documentation is generally out of sync with the code base, it has little to offer to most development tasks. Conversely, aside from embedded comments, code has little to offer for documentation. Even well-documented test scenarios only address a small part of documentation."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-02-21T10:17:52.503547+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-02-21T10:28:53.626757+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "2Ry7MwXrDQCEj07zCE+1Kw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Instead of being in conflict, we imagine a world in which code and documentation live in symbiosis. Instead of starting development tasks from a code editor, notebook pages with embedded code snippets can be the starting point of any task. Instead of coding up test scenarios as methods that merely return “green” results, have them return live examples that feed back into interactive documentation pages."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-02-21T10:29:04.099981+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-02-21T10:32:14.508056+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "A93CWwXrDQCRVudmCE+1Kw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We demonstrate our vision in Glamorous Toolkit, a platform in which notebook pages and code co-exist in symbiosis. Coding starts from documentation, and feeds live examples back into documentation. The two are kept in sync with the help of refactoring tools that are aware of both worlds. Searching over code and documentation are integrated, so developer questions can be answered with artifacts from both worlds."
 						}
 					]
 				},
@@ -262,6 +336,43 @@
 					"__type" : "textStyle"
 				},
 				"string" : "# Abstract"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-21T10:09:48.437422+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-21T10:33:12.534103+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "LtrgFgXrDQC4NYhVCE+1Kw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "**Keywords:** Live programming, Literate Programming, Testing, Examples, Documentation."
 			},
 			{
 				"__type" : "textSnippet",

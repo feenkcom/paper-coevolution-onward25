@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-02-17T10:30:57.004689+01:00"
+						"dateAndTimeString" : "2025-02-21T10:42:13.056709+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-02-17T10:31:01.907836+01:00"
+						"dateAndTimeString" : "2025-02-21T10:42:13.056709+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,42 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Searching\n\tSearch in both code and snippets\n\tCustom searching for app domain\n"
+				"string" : ""
+			},
+			{
+				"__type" : "commentSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-21T10:42:14.587163+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-21T10:42:15.092285+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "h7zgigXrDQCrvUDTCE+1Kw=="
+				},
+				"string" : "Searching\n\tSearch in both code and snippets\n\tCustom searching for app domain\n",
+				"isHidden" : false
 			}
 		]
 	},

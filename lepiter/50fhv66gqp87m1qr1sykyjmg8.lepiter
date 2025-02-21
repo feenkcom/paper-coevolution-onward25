@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-02-17T10:31:30.992759+01:00"
+						"dateAndTimeString" : "2025-02-21T10:42:19.526679+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-02-17T10:31:38.253145+01:00"
+						"dateAndTimeString" : "2025-02-21T10:42:19.526679+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,42 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Refactoring\n\tMostly renaming\n\tRefactoring explicit and also implicit links\n"
+				"string" : ""
+			},
+			{
+				"__type" : "commentSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-21T10:42:21.189067+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-02-21T11:23:53.691006+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Q3lFiwXrDQCrzwY9CE+1Kw=="
+				},
+				"string" : "Refactoring\n\tRenaming\n\t\tRefactoring explicit and also implicit links\n\tExtracting methods from code snippets\n\tExtracting scripts from test cases (example methods)\n",
+				"isHidden" : false
 			}
 		]
 	},
