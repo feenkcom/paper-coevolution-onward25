@@ -74,7 +74,7 @@
 \begin{document}
 %% The "title" command has an optional parameter,
 %% allowing the author to define a "short title" to be used in page headers.
-\title[Co-evolution of Documentation and Code]{Co-Evolution ...}%
+\title[Co-evolution of Documentation and Code]{Co-Evolution  of Documentation and Code}%
 \ifthenelse{\boolean{preprint}}{%
 %\thanks{Presented at...}%
 }{}
@@ -86,6 +86,14 @@
   \city{Wabern}
   \country{Switzerland}}
 \email{andrei.chis@feenk.com}
+
+\author{John Brant}
+\affiliation{%
+  \institution{feenk gmbh}
+  \city{Wabern}
+  \country{Switzerland}}
+\email{brant@refactoryworkers.com}
+%\email{john.brant@feenk.com}
 
 \author{Tudor G\^irba}
 \affiliation{%
@@ -104,19 +112,93 @@
 %\renewcommand{\shortauthors}{Nierstrasz et al.}
 
 \begin{abstract}
-Should we aim for a paper for onward that builds on the paper about examples with a bigger focus on lepiter: describing the lepiter model and its integration with the code model from Pharo. The very nice case that we have is that doing that enables refactorings and code references to work across both code and documentation.
+\on{Perhaps we should emphasize \emph{symbiosis} rather than “co-evolution” in the title?
+``Symbiosis of Documentation and Code''
+``Code and Documentation Living in Symbiosis''?}
+% Should we aim for a paper for onward that builds on the paper about examples with a bigger focus on lepiter: describing the lepiter model and its integration with the code model from Pharo. The very nice case that we have is that doing that enables refactorings and code references to work across both code and documentation.
+
+In most software development projects, code and documentation are in conflict. Aside from generated API documentation, keeping code and documentation in sync is a chore. Why is this?
+
+Since documentation is generally out of sync with the code base, it has little to offer to most development tasks. Conversely, aside from embedded comments, code has little to offer for documentation. Even well-documented test scenarios only address a small part of documentation.
+
+Instead of being in conflict, we imagine a world in which code and documentation live in symbiosis. Instead of starting development tasks from a code editor, notebook pages with embedded code snippets can be the starting point of any task. Instead of coding up test scenarios as methods that merely return “green” results, have them return live examples that feed back into interactive documentation pages.
+
+We demonstrate our vision in Glamorous Toolkit, a platform in which notebook pages and code co-exist in symbiosis. Coding starts from documentation, and feeds live examples back into documentation. The two are kept in sync with the help of refactoring tools that are aware of both worlds. Searching over code and documentation are integrated, so developer questions can be answered with artifacts from both worlds.
 \end{abstract}
 
-\keywords{To do ...}
+\keywords{TO DO ...}
 
 % NB: Max 6 pages for the workshop submission
 
 \maketitle
 
 % ============================================================
-\section{XXX}\label{sec:xxx}
+\section{Introduction}\label{sec:intro}
 
-For now see the notes in the Lepiter database for this repo.
+Software systems are commonly \emph{opaque}, in the sense that it is hard to understand how they work: The running system is not queryable, and only shows you the end user's interface. Reading the source code is tedious and does not scale. Documentation is typically out-of-date, and may not answer the specific questions you have. Green tests are of limited use, as running them only shows their success, and reading the code also does not scale. Asking for help from other experts or from generative AI is risky due to the difficulty in assessing the accuracy of answers.
+Clearly code and documentation are at odds with one another, but why is this so? Look at the way we learn to program. We start by writing some code in a text editor, we stare at it, we fiddle with it, we compile and run it, we assess the results, and then we go back to staring at the source code. Unless we write some comments, documentation plays no role in the process. Even the live, running system plays just a limited role, as we spend most of our time staring at source code. Even in a modern IDE, our first stop is always the code editor, where we mainly stare at source code.
+
+\emph{Literate programming} was the first attempt to fuse code and documentation into readable documents that intersperse explanations of programs with the relevant code snippets. This has influenced many related efforts, such as documentation generation from code, and notebooks such as Jupyter and the R notebook.We envision a modern IDE in which development does not necessarily start from a code editor, but rather from a notebook page. Code and documentation co-evolve in symbiosis. Development tasks start as documentation describing goals and requirements, possibly containing links to existing code and notebook pages. Experiments can be performed as embedded code snippets. New software is developed iteratively and incrementally from the notebook pages. Test cases are extracted from scenarios in code snippets. Tests do not simply report success or failure, but return live \emph{examples} that can be explored, or embedded into notebook pages to illustrate documentation points.
+Such an IDE needs to be aware of both documentation and code so that they can be developed in symbiosis. Links from  code to documentation and vice versa need to be fluid so one can easily navigate from one to the other. Search facilities must operate across the two worlds. Refactoring transformations need to apply not just to  the code base but to documentation as well. Scripts within notebook code snippets must be extractable to classes and methods, and conversely, scenarios  coded as test cases should be extractable to scripts for further experimentation.
+
+We present many of these features in \emph{Glamorous Toolkit} (or GT), an IDE for creating explainable software systems. Although GT features many familiar development tools, a cornerstone is the Lepiter notebook system which serves as a knowledge base for all development tasks and documentation. In \autoref{sec:examples} we show how notebook pages are embellished with live examples produced from test cases. In \autoref{sec:searching} we show how search facilities not only span code and documentation, but how they can be customized for an application domain. In \autoref{sec:refactoring} we illustrate how refactoring operations can span both code and documentation, and how they can support transformations from playground scripts to methods and vice versa. In \autoref{sec:impact} we report on some of experiences with how such an environment impacts the software development process itself. We then discuss some \autoref{sec:related} and conclude in \autoref{sec:conclusion} and sketch a few future directions.
+
+% ============================================================
+\section{Examples}\label{sec:examples}
+
+\begin{code}
+Examples
+	Embedded in documentation
+	Process
+		Live programming from notebooks
+		Extracting examples in snippets to example methods
+	Augmenting examples with custom tools
+
+Themes to explore
+	Metamodel
+		OLD: classes and methods (and packages)
+		NEW: + snippets and pages and databases
+	Live programming from notebooks instead of code editor
+	Using examples to illustrate documentation
+	Starting a development task from an example
+	Turning code snippets into examples and vice versa
+\end{code}
+
+
+% ============================================================
+\section{Searching}\label{sec:searching}
+\begin{code}
+	Search in both code and snippets
+	Custom searching for app domain
+\end{code}
+
+
+% ============================================================
+\section{Refactoring}\label{sec:refactoring}
+\begin{code}
+	Renaming
+		Refactoring explicit and also implicit links
+	Extracting methods from code snippets
+	Extracting scripts from test cases (example methods)
+\end{code}
+
+
+% ============================================================
+\section{Impact}\label{sec:impact}
+\begin{code}
+Impact on the Software Process
+Discuss experience with GT. With Lifeware?
+\end{code}
+
+
+% ============================================================
+\section{Related work}\label{sec:related}
+\begin{code}
+	Literate programming
+		Notebooks
+	Zettelkasten
+\end{code}
+
 
 % ============================================================
 \section{Conclusion}\label{sec:conclusion}
