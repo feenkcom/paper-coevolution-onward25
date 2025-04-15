@@ -177,7 +177,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-02-17T10:15:20.66484+01:00"
+						"dateAndTimeString" : "2025-02-17T10:20:22.089562+01:00"
 					}
 				},
 				"uid" : {
@@ -187,7 +187,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Paper outline]]"
+				"string" : "[[DRAFT]]"
 			}
 		]
 	},
